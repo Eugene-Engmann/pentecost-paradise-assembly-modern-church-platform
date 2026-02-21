@@ -20,15 +20,9 @@ import SermonsPage from '@/pages/SermonsPage'
 import EventsPage from '@/pages/EventsPage'
 import { WebsiteLayout } from '@/components/layout/WebsiteLayout';
 import { Toaster } from '@/components/ui/sonner';
-const queryClient = new QueryClient();
-// Wrap pages in WebsiteLayout
-function LayoutWrapper() {
-  return (
-    <WebsiteLayout>
-      <Outlet />
-      <Toaster richColors closeButton position="top-center" />
-    </WebsiteLayout>
-  );
+const queryClient = new QueryClient();// Wrap pages in WebsiteLayout
+import { LayoutWrapper } from '@/components/layout/LayoutWrapper';
+
 }
 const router = createBrowserRouter([
   {
