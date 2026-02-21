@@ -18,12 +18,10 @@ import { ContactPage } from '@/pages/ContactPage'
 import MinistriesPage from '@/pages/MinistriesPage'
 import SermonsPage from '@/pages/SermonsPage'
 import EventsPage from '@/pages/EventsPage'
+import { LayoutWrapper } from '@/components/layout/LayoutWrapper';
 import { WebsiteLayout } from '@/components/layout/WebsiteLayout';
 import { Toaster } from '@/components/ui/sonner';
-const queryClient = new QueryClient();// Wrap pages in WebsiteLayout
-import { LayoutWrapper } from '@/components/layout/LayoutWrapper';
-
-}
+const queryClient = new QueryClient();
 const router = createBrowserRouter([
   {
     path: "/",
