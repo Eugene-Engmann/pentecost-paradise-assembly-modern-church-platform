@@ -1,6 +1,6 @@
 # Cloudflare Workers + React Starter Template
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Eugene-Engmann/pentecost-paradise-assembly-modern-church-platform)
 
 A production-ready full-stack starter template built with React, Tailwind CSS, shadcn/ui, and Cloudflare Workers. Features a modern UI with server-side API routes powered by Hono, seamless local development, and one-click deployment to Cloudflare.
 
@@ -89,7 +89,7 @@ Or manually:
 1. Build: `bun run build`
 2. Deploy: `npx wrangler deploy`
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Eugene-Engmann/pentecost-paradise-assembly-modern-church-platform)
 
 **Configuration**: Edit `wrangler.jsonc` for custom bindings (KV, D1, R2, etc.). API routes are automatically proxied.
 
