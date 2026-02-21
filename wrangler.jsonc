@@ -4,7 +4,7 @@
  */
  {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "vite-reference",
+	"name": "pentecost-paradise-a-arcsgpeiaqectwv9yv8r_",
 	"main": "worker/index.ts",
 	"compatibility_date": "2025-04-24",
 	"assets": {
