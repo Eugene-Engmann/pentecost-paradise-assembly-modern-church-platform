@@ -57,6 +57,7 @@
 body {
   @apply font-sans paper-texture bg-background text-foreground antialiased;
 }
-h1, h2, h3, h4, .font-display {
+/* Fixed: Removed .font-display from here to avoid circular dependency with tailwind font-display utility */
+h1, h2, h3, h4 {
   @apply font-display;
 }

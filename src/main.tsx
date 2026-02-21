@@ -15,6 +15,9 @@ import '@/index.css'
 import { HomePage } from '@/pages/HomePage'
 import { AboutPage } from '@/pages/AboutPage'
 import { ContactPage } from '@/pages/ContactPage'
+import MinistriesPage from '@/pages/MinistriesPage'
+import SermonsPage from '@/pages/SermonsPage'
+import EventsPage from '@/pages/EventsPage'
 import { WebsiteLayout } from '@/components/layout/WebsiteLayout';
 import { Toaster } from '@/components/ui/sonner';
 const queryClient = new QueryClient();
@@ -36,9 +39,9 @@ const router = createBrowserRouter([
       { path: "/", element: <HomePage /> },
       { path: "/about", element: <AboutPage /> },
       { path: "/contact", element: <ContactPage /> },
-      // Placeholders for Phase 2
-      { path: "/ministries", element: <div className="py-24 text-center font-display text-2xl">Ministries Page Coming Soon</div> },
-      { path: "/sermons", element: <div className="py-24 text-center font-display text-2xl">Sermons Archive Coming Soon</div> },
+      { path: "/ministries", element: <MinistriesPage /> },
+      { path: "/sermons", element: <SermonsPage /> },
+      { path: "/events", element: <EventsPage /> },
     ],
   },
 ]);
